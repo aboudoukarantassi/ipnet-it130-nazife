@@ -8,7 +8,7 @@
 <body>
 
 <!-- En-tête de la page -->
-<header>
+<header id="accueil">
 <h1>Mon Blog Personnel</h1>
 <p>Bienvenue sur mon blog créé dans le cadre du cours IT 130.</p>
 </header>
@@ -25,13 +25,55 @@
 
 <!-- Contenu principal -->
 <main>
+
 <!-- Article principal -->
-<article>
+<article id="articles">
 <h2>Mon Premier Article</h2>
 <p>Publié le <time datetime="2026-11-19">19 novembre 2026</time></p>
 <p>Voici le contenu de mon premier article. J'apprends le HTML sémantique.</p>
 </article>
+
+<!-- Deuxième article -->
+<article>
+<h2>Mon Deuxième Article</h2>
+<p>Publié le <time datetime="2026-11-19">19 novembre 2026</time></p>
+<p>J'apprends maintenant à structurer une page avec des balises sémantiques.</p>
+<p>Les balises <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>,
+<code>&lt;main&gt;</code>, <code>&lt;article&gt;</code> et
+<code>&lt;footer&gt;</code> sont mes préférées.</p>
+</article>
+
+<!-- Image avec légende -->
+<figure>
+<img src="https://placehold.co/300x200" alt="Image de démonstration montrant un paysage">
+<figcaption>Figure 1 : Une image de démonstration avec une légende.</figcaption>
+</figure>
+
+<!-- Section À propos -->
+<section id="apropos">
+<h2>À propos de moi</h2>
+<p>Je suis étudiant à <strong>IPNET Institute of Technology</strong>.</p>
+<p>J'apprends le développement Web.</p>
+</section>
+
+<!-- Section Contact -->
+<section id="contact">
+<h2>Contact</h2>
+<p>Vous pouvez me contacter à l'adresse suivante :</p>
+<p><a href="mailto:naziff40@gmail.com">naziff40@gmail.com</a></p>
+</section>
+
 </main>
+
+<!-- Barre latérale -->
+<aside>
+<h3>Liens Utiles</h3>
+<ul>
+<li><a href="https://developer.mozilla.org/fr/" target="_blank">MDN Web Docs</a></li>
+<li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+<li><a href="https://github.com/" target="_blank">GitHub</a></li>
+</ul>
+</aside>
 
 <!-- Pied de page -->
 <footer>
